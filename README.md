@@ -1,5 +1,5 @@
 # X-12-Series Project
-The last project by xc11
+The last X-Series project by xc11
 
 
 Hey everyone! I’m Yasion (xc11)! A student who loves exploring the internet. This project marks my fifth year participating in it. From the XC-X 10th anniversary to the X-11 Series, this is now the X-12 Series.
