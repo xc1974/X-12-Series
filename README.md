@@ -8,4 +8,4 @@ However, with the X-12 Series, we're now inviting anyone to contribute ideas and
 
 # X-12 Series is now collaborating with LKKC Backstage Team
 
-The X-12 Series will primarily manage multimedia control in major events, such as singing contests and interclass performance art competitions. This includes tasks like camera control, reply management, background music setup, and lighting adjustments using RGB technology instead of traditional stage lights.
+The X-12 Series will primarily manage multimedia control in major events, such as singing contests and interclass performance art competitions. This includes tasks like camera control, replay management, background music setup, and lighting adjustments using RGB technology instead of traditional stage lights.
