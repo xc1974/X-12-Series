@@ -1,4 +1,7 @@
 # X-12-Series Project
+
+![alt text](https://github.com/xc1974/X-12-Series/blob/main/logo.png?raw=true)
+
 The last X-Series project by xc11
 
 
