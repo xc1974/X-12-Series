@@ -1,6 +1,9 @@
 # X-12-Series Project
 
-![alt text](https://github.com/xc1974/X-12-Series/blob/main/logo.png?raw=true)
+<p align="center">
+  <img width="250" height="250" src="https://github.com/xc1974/X-12-Series/blob/main/logo.png?raw=true">
+</p>
+
 
 The last X-Series project by xc11
 
