@@ -1,7 +1,7 @@
 # Xerum OS
 
 <p align="center">
-  <img src="https://github.com/xc1974/X-12-Series/blob/Xerum-OS/logo.png?raw=true" alt="Xerum OS">
+  <img src="https://github.com/xc1974/X-12-Series/blob/Xerum-OS/logo_f.png?raw=true" alt="Xerum OS">
 </p>
 
 
