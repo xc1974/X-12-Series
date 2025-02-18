@@ -1,7 +1,7 @@
 # X-12-Series Project
 
 <p align="center">
-  <img src="https://github.com/xc1974/X-12-Series/blob/main/logo.png?raw=true" alt="X-12 Series Logo" width="250" height="250">
+  <img src="https://github.com/xc1974/X-12-Series/blob/main/logo_main.png" alt="X-12 Series Logo" width="250" height="250">
 </p>
 
 
