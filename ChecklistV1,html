@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern School Backstage Team Checklist</title>
+  <style>
+    /* Base Styling */
+    :root {
+      --primary-color: #4CAF50;
+      --secondary-color: #fff;
+      --bg-color: #f5f5f5;
+      --text-color: #333;
+      --border-color: #ddd;
+      --accent-color: #f44336;
+      --font-family: 'Roboto', sans-serif;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      font-family: var(--font-family);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: var(--secondary-color);
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    
+    h1 {
+      text-align: center;
+      color: var(--primary-color);
+      margin-bottom: 20px;
+    }
+    
+    .checklist-section {
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    .section-title {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+      border-left: 5px solid var(--primary-color);
+      padding-left: 10px;
+    }
+    
+    .item {
+      display: flex;
+      align-items: center;
+      padding: 8px 0;
+    }
+    
+    .item input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      accent-color: var(--primary-color);
+    }
+    
+    .item label {
+      margin-left: 10px;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+    
+    /* Hover state for labels */
+    .item label:hover {
+      color: var(--primary-color);
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .container {
+        margin: 10px;
+        padding: 15px;
+      }
+      
+      .section-title {
+        font-size: 1.2em;
+      }
+      
+      .item label {
+        font-size: 1em;
+      }
+    }
+  </style>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>School Backstage Team Checklist</h1>
+    <form>
+      <div class="checklist-section">
+        <div class="section-title">1. Control Room Preshow</div>
+        <div class="item">
+          <input type="checkbox" id="masterSwitch" />
+          <label for="masterSwitch">Master Switch: ON</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="audioPanelSwitch" />
+          <label for="audioPanelSwitch">Audio Panel Switch: ON</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="lightPanelSwitch" />
+          <label for="lightPanelSwitch">Light Panel Switch: ON</label>
+        </div>
+      </div>
+
+      <div class="checklist-section">
+        <div class="section-title">2. Audio Panel Preshow</div>
+        <div class="item">
+          <input type="checkbox" id="micA" />
+          <label for="micA">MIC A: ON</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="micB" />
+          <label for="micB">MIC B: ON</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="micC" />
+          <label for="micC">MIC C: ON</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="micD" />
+          <label for="micD">MIC D: ON</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="mic19" />
+          <label for="mic19">MIC 19-24: Check battery/status</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="micOne" />
+          <label for="micOne">MIC ONE: ON</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="micTwo" />
+          <label for="micTwo">MIC TWO: ON</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="auxOneTwo" />
+          <label for="auxOneTwo">AUX ONE/TWO: ON</label>
+        </div>
+      </div>
+
+      <div class="checklist-section">
+        <div class="section-title">3. Lighting Panel Preshow</div>
+        <div class="item">
+          <input type="checkbox" id="lightingCheck" />
+          <label for="lightingCheck">Lighting Test/Check</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="audioTest" />
+          <label for="audioTest">Audio Test</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="lightingTest" />
+          <label for="lightingTest">Lighting Test</label>
+        </div>
+      </div>
+
+      <div class="checklist-section">
+        <div class="section-title">4. Computer Preshow</div>
+        <div class="item">
+          <input type="checkbox" id="computerTest" />
+          <label for="computerTest">Computer Test</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="monitorC" />
+          <label for="monitorC">Monitor C: NO BK</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="lrMonitor" />
+          <label for="lrMonitor">L&R Monitor: NORMAL</label>
+        </div>
+      </div>
+
+      <div class="checklist-section">
+        <div class="section-title">5. Right & Left Backstage Setup</div>
+        <div class="item">
+          <input type="checkbox" id="rightBackstage" />
+          <label for="rightBackstage">Right Backstage: Confirm setup</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="leftBackstage" />
+          <label for="leftBackstage">Left Backstage: Confirm setup</label>
+        </div>
+      </div>
+
+      <div class="checklist-section">
+        <div class="section-title">6. Checking Batteries & Mic Hardware</div>
+        <div class="item">
+          <input type="checkbox" id="micBatteryA" />
+          <label for="micBatteryA">MIC A Battery: Check</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="micBatteryB" />
+          <label for="micBatteryB">MIC B Battery: Check</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="micBatteryC" />
+          <label for="micBatteryC">MIC C Battery: Check</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="micBatteryD" />
+          <label for="micBatteryD">MIC D Battery: Check</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="walkie1" />
+          <label for="walkie1">Walkie-Talkie 1: Full charge (CHN.1)</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="walkie2" />
+          <label for="walkie2">Walkie-Talkie 2: Full charge</label>
+        </div>
+      </div>
+
+      <div class="checklist-section">
+        <div class="section-title">7. Pre-Start Preparations</div>
+        <div class="item">
+          <input type="checkbox" id="bgmPre" />
+          <label for="bgmPre">BGM (Background Music): Ready/Test</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="doorsOpen" />
+          <label for="doorsOpen">Doors: OPEN</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="backstageStandby" />
+          <label for="backstageStandby">Backstage: STANDBY</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="controlRoomStandby" />
+          <label for="controlRoomStandby">Control Room: STANDBY</label>
+        </div>
+      </div>
+
+      <div class="checklist-section">
+        <div class="section-title">8. After Start / Post-Show</div>
+        <div class="item">
+          <input type="checkbox" id="bgmPost" />
+          <label for="bgmPost">BGM: Check volume & signal</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="doorsClose" />
+          <label for="doorsClose">Doors: CLOSE</label>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</body>
+</html>
