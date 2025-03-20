@@ -1,0 +1,12 @@
+opencv-python>=4.8.0
+PyQt6>=6.5.0
+psutil>=5.9.0
+py-cpuinfo>=9.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+wmi>=1.5.1
+seaborn>=0.12.0
+GPUtil>=1.4.0
+PyQt6-Qt6>=6.5.0
+PyQt6-WebEngine>=6.5.0 

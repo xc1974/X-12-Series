@@ -1,7 +1,35 @@
-# X-12-Series Project
-The last X-Series project by xc11
+# PC性能基准测试和多屏视频播放测试工具
 
+这是一个用于评估PC多屏视频播放性能的基准测试工具。该工具可以模拟多屏幕同时播放视频的场景，并实时监控系统性能指标。
 
-Hey everyone! I’m Yasion (xc11)! A student who loves exploring the internet. This project marks my fifth year participating in it. From the XC-X 10th anniversary to the X-11 Series, this is now the X-12 Series.
-I understand there might be confusion about why there’s no XC-X 10 or X-11 Series. That’s because I chose to close-source those projects entirely. However, the X-12 Series is an open-source initiative where anyone can contribute ideas and suggestions.
-I hope you find something here helpful for your project.
+## 功能特点
+
+- 多屏视频同步播放测试
+- 实时系统性能监控（CPU、内存、温度等）
+- 性能评分系统
+- 详细的测试报告生成
+- 自定义测试参数
+
+## 安装要求
+
+- Python 3.8+
+- 支持的操作系统：Windows 10/11
+
+## 安装步骤
+
+1. 克隆此仓库
+2. 安装依赖：
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## 使用方法
+
+运行主程序：
+```bash
+python src/main.py
+```
+
+## 许可证
+
+MIT License 
